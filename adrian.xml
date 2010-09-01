@@ -1,0 +1,125 @@
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">	
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<link rel="shortcut icon" href="http://mediacdn.disqus.com/1081/images/disqus-v3.ico" type="image/vnd.microsoft.icon" />
+		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<meta name="keywords" content="Disqus, disqus.com, comments, blog, blogs, discussion" />
+		<meta name="description" content="Disqus is a global comment system that improves discussion on websites and connects conversations across the web." />
+		<script type="text/javascript" charset="utf-8">
+			if (window.context === undefined) {
+				var context = {};
+			}
+			
+			context.mediaUrl = 'http://mediacdn.disqus.com/1081';
+		</script>
+        
+		<script src="http://mediacdn.disqus.com/1081/javascript/library/jquery-1.3.2.min.js" type="text/javascript" charset="utf-8"></script>
+        
+		<script src="http://mediacdn.disqus.com/1081/javascript/utilities.js" type="text/javascript" charset="utf-8"></script>
+		<script src="http://mediacdn.disqus.com/1081/javascript/facebox.js" type="text/javascript" charset="utf-8"></script>
+		<script src="http://mediacdn.disqus.com/1081/javascript/global.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" href="http://mediacdn.disqus.com/1081/styles/v3/global.css" type="text/css" />
+		
+	<title>DISQUS Comments | Login</title>
+
+		
+			<script type="text/javascript" charset="utf-8">
+				// Global tests
+				$(document).ready(function() {
+					$('a[rel*=facebox]').facebox();
+				});
+			</script>
+	        
+		
+	</head>
+	<body>
+		
+	<div id="lightbox-login">
+		<div id="facebox">
+			<div class="popup">
+				<table>
+					<tbody>
+						<tr>
+							<td class="tl"></td><td class="b"></td><td class="tr"></td>
+						</tr>
+						<tr>
+							<td class="b"></td>
+							<td class="body">
+								<div style="display: block;" class="content">
+									<h3>
+										
+											Please login to view this page
+										
+									</h3>
+									
+
+<form id="login-form" action="/comments/login/?next=/migrate/adriankarlssonsnorgeblogg/comments.xml" method="post" accept-charset="utf-8">
+	<label>
+		<span>Username or Email</span>
+		<input type="text" name="username" tabindex="20" />
+	</label>
+	<label>
+		<span>Password (<a href="/forgot/" target="_blank">forgot?</a>)</span>
+		<input type="password" name="password" tabindex="21" />
+	</label>
+	<label class="openid">
+		<span>&nbsp;</span>
+    	<a href="#" onclick="$('a#use-openid').hide(); $('input#openid-url').show(); return false;" id="use-openid">Use OpenID?</a>
+    	<input type="text" id="openid-url" name="openid-url" style="display:none;" />
+  	</label>
+	<button type="submit" class="button"><span><img src="http://mediacdn.disqus.com/1081/images/v3/icon/16/29.png" /> Login</span></button>
+</form>
+
+									
+								</div>
+			                 	<div style="display: block; text-align: left; line-height: 2em; padding-top: 10px" class="footer">
+									
+										<img src="http://mediacdn.disqus.com/1081/images/v3/logo/dc-inline.gif" style="margin: -6px 4px" /> is a comment system and moderation tool for your site.
+									
+									<a href="/comments/register/" rel="signup">Don't have an account? Sign up, free.</a>
+								</div>
+							</td>
+							<td class="b"></td>
+						</tr>
+						<tr>
+							<td class="bl"></td><td class="b"></td><td class="br"></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<div style="display: block; opacity: 0.8;" id="facebox_overlay" class="facebox_hide facebox_overlayBG"></div>
+	
+		
+			
+		
+	        <!-- Start Quantcast tag -->
+	        <script type="text/javascript">
+	        _qoptions={
+	        qacct:"p-94WKwgUwZHlfo"
+	        };
+	        </script>
+	        <script type="text/javascript" src="http://edge.quantserve.com/quant.js"></script>
+	        <noscript>
+	        <img src="http://pixel.quantserve.com/pixel/p-94WKwgUwZHlfo.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/>
+	        </noscript>
+	        <!-- End Quantcast tag -->
+	        <script type="text/javascript">
+	        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	        </script>
+	        <script type="text/javascript">
+	        try {
+	        var pageTracker = _gat._getTracker("UA-1410476-6");
+	        pageTracker._trackPageview();
+	        } catch(err) {}</script>
+		
+		
+	</body>
+</html>
